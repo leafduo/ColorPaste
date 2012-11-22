@@ -7,28 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		922071FB165E878400BA37BB /* NSString+Hex2UIColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 922071FA165E878400BA37BB /* NSString+Hex2UIColor.m */; };
+		92207202165E8D4E00BA37BB /* NSString+PasteBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 92207201165E8D4E00BA37BB /* NSString+PasteBoard.m */; };
 		9228C237165E7263005BF37B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9228C236165E7263005BF37B /* Cocoa.framework */; };
 		9228C241165E7263005BF37B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9228C23F165E7263005BF37B /* InfoPlist.strings */; };
 		9228C243165E7263005BF37B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9228C242165E7263005BF37B /* main.m */; };
 		9228C247165E7263005BF37B /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 9228C245165E7263005BF37B /* Credits.rtf */; };
 		9228C24A165E7263005BF37B /* CPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9228C249165E7263005BF37B /* CPAppDelegate.m */; };
-		9228C24D165E7263005BF37B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9228C24B165E7263005BF37B /* MainMenu.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9228C232165E7263005BF37B /* ColorPaste.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorPaste.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		922071F7165E872C00BA37BB /* Color Paste-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Color Paste-Info.plist"; sourceTree = "<group>"; };
+		922071F9165E878400BA37BB /* NSString+Hex2UIColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Hex2UIColor.h"; sourceTree = "<group>"; };
+		922071FA165E878400BA37BB /* NSString+Hex2UIColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Hex2UIColor.m"; sourceTree = "<group>"; };
+		92207200165E8D4E00BA37BB /* NSString+PasteBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+PasteBoard.h"; sourceTree = "<group>"; };
+		92207201165E8D4E00BA37BB /* NSString+PasteBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+PasteBoard.m"; sourceTree = "<group>"; };
+		9228C232165E7263005BF37B /* Color Paste.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Color Paste.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9228C236165E7263005BF37B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		9228C239165E7263005BF37B /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		9228C23A165E7263005BF37B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		9228C23B165E7263005BF37B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		9228C23E165E7263005BF37B /* ColorPaste-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ColorPaste-Info.plist"; sourceTree = "<group>"; };
 		9228C240165E7263005BF37B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9228C242165E7263005BF37B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9228C244165E7263005BF37B /* ColorPaste-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ColorPaste-Prefix.pch"; sourceTree = "<group>"; };
 		9228C246165E7263005BF37B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		9228C248165E7263005BF37B /* CPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPAppDelegate.h; sourceTree = "<group>"; };
 		9228C249165E7263005BF37B /* CPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPAppDelegate.m; sourceTree = "<group>"; };
-		9228C24C165E7263005BF37B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +58,7 @@
 		9228C233165E7263005BF37B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9228C232165E7263005BF37B /* ColorPaste.app */,
+				9228C232165E7263005BF37B /* Color Paste.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -84,7 +87,10 @@
 			children = (
 				9228C248165E7263005BF37B /* CPAppDelegate.h */,
 				9228C249165E7263005BF37B /* CPAppDelegate.m */,
-				9228C24B165E7263005BF37B /* MainMenu.xib */,
+				922071F9165E878400BA37BB /* NSString+Hex2UIColor.h */,
+				922071FA165E878400BA37BB /* NSString+Hex2UIColor.m */,
+				92207200165E8D4E00BA37BB /* NSString+PasteBoard.h */,
+				92207201165E8D4E00BA37BB /* NSString+PasteBoard.m */,
 				9228C23D165E7263005BF37B /* Supporting Files */,
 			);
 			path = ColorPaste;
@@ -93,10 +99,9 @@
 		9228C23D165E7263005BF37B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				9228C23E165E7263005BF37B /* ColorPaste-Info.plist */,
 				9228C23F165E7263005BF37B /* InfoPlist.strings */,
+				922071F7165E872C00BA37BB /* Color Paste-Info.plist */,
 				9228C242165E7263005BF37B /* main.m */,
-				9228C244165E7263005BF37B /* ColorPaste-Prefix.pch */,
 				9228C245165E7263005BF37B /* Credits.rtf */,
 			);
 			name = "Supporting Files";
@@ -105,9 +110,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9228C231165E7263005BF37B /* ColorPaste */ = {
+		9228C231165E7263005BF37B /* Color Paste */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9228C250165E7263005BF37B /* Build configuration list for PBXNativeTarget "ColorPaste" */;
+			buildConfigurationList = 9228C250165E7263005BF37B /* Build configuration list for PBXNativeTarget "Color Paste" */;
 			buildPhases = (
 				9228C22E165E7263005BF37B /* Sources */,
 				9228C22F165E7263005BF37B /* Frameworks */,
@@ -117,9 +122,9 @@
 			);
 			dependencies = (
 			);
-			name = ColorPaste;
+			name = "Color Paste";
 			productName = ColorPaste;
-			productReference = 9228C232165E7263005BF37B /* ColorPaste.app */;
+			productReference = 9228C232165E7263005BF37B /* Color Paste.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -132,7 +137,7 @@
 				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = leafduo.com;
 			};
-			buildConfigurationList = 9228C22C165E7263005BF37B /* Build configuration list for PBXProject "ColorPaste" */;
+			buildConfigurationList = 9228C22C165E7263005BF37B /* Build configuration list for PBXProject "Color Paste" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -144,7 +149,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9228C231165E7263005BF37B /* ColorPaste */,
+				9228C231165E7263005BF37B /* Color Paste */,
 			);
 		};
 /* End PBXProject section */
@@ -156,7 +161,6 @@
 			files = (
 				9228C241165E7263005BF37B /* InfoPlist.strings in Resources */,
 				9228C247165E7263005BF37B /* Credits.rtf in Resources */,
-				9228C24D165E7263005BF37B /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,6 +173,8 @@
 			files = (
 				9228C243165E7263005BF37B /* main.m in Sources */,
 				9228C24A165E7263005BF37B /* CPAppDelegate.m in Sources */,
+				922071FB165E878400BA37BB /* NSString+Hex2UIColor.m in Sources */,
+				92207202165E8D4E00BA37BB /* NSString+PasteBoard.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,14 +195,6 @@
 				9228C246165E7263005BF37B /* en */,
 			);
 			name = Credits.rtf;
-			sourceTree = "<group>";
-		};
-		9228C24B165E7263005BF37B /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9228C24C165E7263005BF37B /* en */,
-			);
-			name = MainMenu.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -260,9 +258,9 @@
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ColorPaste/ColorPaste-Prefix.pch";
-				INFOPLIST_FILE = "ColorPaste/ColorPaste-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "ColorPaste/Color Paste-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/ColorPaste/Color Paste-Info.plist";
+				PRODUCT_NAME = "Color Paste";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -272,9 +270,9 @@
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ColorPaste/ColorPaste-Prefix.pch";
-				INFOPLIST_FILE = "ColorPaste/ColorPaste-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "ColorPaste/Color Paste-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/ColorPaste/Color Paste-Info.plist";
+				PRODUCT_NAME = "Color Paste";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -282,7 +280,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9228C22C165E7263005BF37B /* Build configuration list for PBXProject "ColorPaste" */ = {
+		9228C22C165E7263005BF37B /* Build configuration list for PBXProject "Color Paste" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9228C24E165E7263005BF37B /* Debug */,
@@ -291,13 +289,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9228C250165E7263005BF37B /* Build configuration list for PBXNativeTarget "ColorPaste" */ = {
+		9228C250165E7263005BF37B /* Build configuration list for PBXNativeTarget "Color Paste" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9228C251165E7263005BF37B /* Debug */,
 				9228C252165E7263005BF37B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
